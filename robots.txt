@@ -28,4 +28,7 @@ Allow: /
 User-agent: Pinterest
 Crawl-delay: 1
 
+User-agent: *
+Disallow: /cdn-cgi/
+
 Sitemap: https://chapratudo.com.br/sitemap.xml
