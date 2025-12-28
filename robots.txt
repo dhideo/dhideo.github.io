@@ -1,6 +1,31 @@
 User-agent: *
-Disallow: /
-Allow: /index.html
-Allow: /page/contato
+Allow: /
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /?*
+Disallow: /*?*
+
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+User-agent: Googlebot-Image
 Allow: /assets/
+Allow: /images/
+Allow: /img/
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Pinterest
+Crawl-delay: 1
+
 Sitemap: https://chapratudo.com.br/sitemap.xml
